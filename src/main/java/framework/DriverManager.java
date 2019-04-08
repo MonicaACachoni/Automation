@@ -55,15 +55,9 @@ public class DriverManager {
 		LOGGER.trace("browser from properties: " + browser);
 
 		switch (browser) {
-		case "firefox":
-			message = "Firefox driver requested";
-			driver = new FirefoxDriver();
-			break;
 
 		case "chrome":
 			message = "Chrome driver requested";
-//			ChromeOptions opts = new ChromeOptions();
-//			opts.addArguments("--disable-notifications");
 			driver = new ChromeDriver();
 			break;
 
