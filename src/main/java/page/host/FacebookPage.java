@@ -13,7 +13,7 @@ public class FacebookPage extends AbstractPage {
 	final static By BUTTON_LOGIN = new By.ByCssSelector("#login");
 
 	public FacebookPage() {
-		url = "<>";
+		url = "http://monicacachoni.wixsite.com/mommy2u";
 	}
 
 	@Override

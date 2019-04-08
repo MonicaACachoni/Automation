@@ -62,9 +62,9 @@ public class DriverManager {
 
 		case "chrome":
 			message = "Chrome driver requested";
-			ChromeOptions opts = new ChromeOptions();
-			opts.addArguments("--disable-notifications");
-			driver = new ChromeDriver(opts);
+//			ChromeOptions opts = new ChromeOptions();
+//			opts.addArguments("--disable-notifications");
+			driver = new ChromeDriver();
 			break;
 
 		default:

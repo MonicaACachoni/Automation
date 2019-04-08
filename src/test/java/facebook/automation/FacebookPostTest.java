@@ -14,8 +14,7 @@ public class FacebookPostTest extends FrameworkBase {
 
 	@Test
 	public void facebookPost() {
-		// Random String needed because Facebook doesn't allow same text to be
-		// posted multiple times
+
 		final String postMessage = "Bom dia Facebook : " + System.currentTimeMillis();
 		final String updatedPostMessage = "Boa tarde Facebook!";
 		final int postWaitMillis = 4000;
